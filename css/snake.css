@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.show {
+	position: relative;
+	/* margin-left: 10%;
+	margin-top: 100px; */
+	margin: 100px auto 0;
+	width: 1000px;
+}
+.wrapper {
+	float: left;
+	border: 1px solid #000;
+	overflow: hidden;
+}
+.wrapper table {
+	border-collapse: collapse;
+	width: 800px;
+}
+.wrapper table tr {
+	height: 20px;
+	border: 1px solid #000;
+}
+.wrapper table td {
+	height: 20px;
+	border: 1px solid #ccc;
+}
+.button {
+	position: absolute;
+	width: 100%;
+	bottom: 20px;
+}
+.button span {
+	border: 10px solid skyblue;
+	color: #000;
+	border-radius: 80%;
+	text-align: center;
+	margin-right: 60px;
+	cursor: pointer;
+}
+
+.button .start {
+	margin-left: 8%;
+}
+
+.foods {
+	/* width: 20px;
+	height: 20px;
+	position: absolute; */
+	background-color: red;
+	border-radius: 50%;
+}
+
+.snakes {
+	background-color: skyblue;
+}
+
+.show .scoreBorad {
+	position: absolute;
+	top: -20px;
+	left: 0px;
+}
