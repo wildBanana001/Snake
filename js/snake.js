@@ -1,5 +1,6 @@
 var snakeGame = {
-	score : document.getElementsByTagName('i')[0],
+	//获取成绩标签
+	score : document.getElementsByClassName('score'),
 	//创建地图
 	createMap : function(reopen) {
 		var oDiv = document.getElementsByTagName('div')[1];
@@ -9,6 +10,7 @@ var snakeGame = {
 		this.rowNum = 24;
 		this.colNum = 40;
 		this.oSnake = [];
+		//重绘地图
 		if(reopen === 'reopen') {
 			oDiv.removeChild(oTable);
 		}
